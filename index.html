@@ -3,34 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <title> ma premiere page html!</title>
+    <link rel="stylesheet" type="text/css" href="styleindex.css">
   </head>
   <body>
-    <img src="logohtml.png">
-    <nav>
-      <ul>
-        <li><a href="#Introduction">Introduction</a></li>
-        <li><a href="#premierspas">Premiers pas avec html</a></li>
-        <li><a href="#structurehtml">Structure d'un code html</a></li>
-        <li><a href="#titre">Sémantique sur les différents titres</a></li>
-        <li><a href="#listes">Les différentes  type de liste</a></li>
-        <li><a href="#actionstexte">Actions sur le texte contenu dans une page web</a></li>
-        <li><a href="#hypertexte">Les liens hypertextes</a></li>
-        <li><a href="#lienpage">Les liens hypertextes vers une page web</a></li>
-        <li><a href="#target">Les liens hypertextes vers une parti de la page</a></li>
-        <li><a href="#tableaux">Les tableaux</a></li>
-        <li><a href="#declaration">Déclaration d'un tableau</a></li>
-        <li><a href="#headandfoot">Entête et pied de tableau</a></li>
-        <li><a href="#fusion">Fusion de cellules</a></li>
-        <li><a href="#Annexe">Annexe</a></li>
-      </ul>
-    </nav>
+    <img src="logohtml.png" alt="logo du site" class="carreimg">
+    <div class= "carre">
+      <nav>
+        <ul>
+          <li><a href="#Introduction">Introduction</a></li>
+          <li><a href="#premierspas">Premiers pas avec html</a></li>
+          <li><a href="#structurehtml">Structure d'un code html</a></li>
+          <li><a href="#titre">Sémantique sur les différents titres</a></li>
+          <li><a href="#listes">Les différentes  type de liste</a></li>
+          <li><a href="#actionstexte">Actions sur le texte contenu dans une page web</a></li>
+          <li><a href="#hypertexte">Les liens hypertextes</a></li>
+          <li><a href="#lienpage">Les liens hypertextes vers une page web</a></li>
+          <li><a href="#target">Les liens hypertextes vers une parti de la page</a></li>
+          <li><a href="#tableaux">Les tableaux</a></li>
+          <li><a href="#declaration">Déclaration d'un tableau</a></li>
+          <li><a href="#headandfoot">Entête et pied de tableau</a></li>
+          <li><a href="#fusion">Fusion de cellules</a></li>
+          <li><a href="#Annexe">Annexe</a></li>
+        </ul>
+      </nav>
+    </div>
     <h1> Ceci est le corp de ma premiere page html5!</h1>
     <h1>Présentation d'html5</h1>
     <section id="Introduction">
-      <h2>Introduction</h2>
-      <p>   HTML veut dire Hyper Text Markup Language. <a href="https://fr.wikipedia.org/wiki/HTML5"> definition wikipedia</a></p>
-      <p>   c'est un logiciel de creation de pages web qui organise sémantiquement les élèments de la page afin qu'elle
-       soient intérprètées d'une manière visuelle par d'autre logiciels comme CSS. <strong>A completer...</strong></p>
+        <h2>Introduction</h2>
+        <p>   HTML veut dire Hyper Text Markup Language. <a href="https://fr.wikipedia.org/wiki/HTML5"> definition wikipedia</a></p>
+        <p>   c'est un logiciel de creation de pages web qui organise sémantiquement les élèments de la page afin qu'elle
+        soient intérprètées d'une manière visuelle par d'autre logiciels comme CSS. <strong>A completer...</strong></p>
     </section>
     <section id="premierspas">
       <h2>Premiers pas avec html</h2>
@@ -108,7 +111,7 @@
       <h2>Les tableau</h2>
       <article id="declaration">
         <h2>Déclaration d'un tableau</h2>
-        <pre>
+        <pre class="code">
           &lt;table&gt;
             &lt;tr&gt;
               &lt;td&gt;valeur&lt;/td&gt;
@@ -134,7 +137,7 @@
       </article>
       <article id="headandfoot">
         <h2>Entête et pied de tableau</h2>
-        <pre>
+        <pre class="code">
           &lt;caption&gt;legende&lt;/caption&gt;
           &lt;thead&gt;
             &lt;th&gt;... &lt;/th&gt;
@@ -148,10 +151,11 @@
       <article id="fusion">
         <h2>Fusion de cellules</h2>
         <p> la synthaxe est la suivante:</p>
-        <pre>
+        <pre class="code">
           &lt;tr&gt;
             &lt;td rospan="2" colspan="2"&gt; valeur &lt;/td&gt;
           &lt;/tr&gt;
+        </pre>
         <p> <mark>Exemple</mark></p>
         <table>
           <tr>
