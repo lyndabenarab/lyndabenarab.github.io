@@ -1,7 +1,7 @@
 .carre{
   width: 90%;
   display: inline-block;
-  background-color: rgba(255,255,0,1);
+  background-color: aqua;
 }
 .carreimg{
   position: absolute;
@@ -19,4 +19,13 @@
   width: 50%;
   background-color: black;
   color: white;
+}
+.titrelevel1{
+  color: purple;
+}
+.titrelevel2{
+  color: blue;
+}
+.titrelevel3{
+  color: purple;
 }
