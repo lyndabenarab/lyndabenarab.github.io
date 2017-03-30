@@ -1,0 +1,6 @@
+width: 60%;
+  display: flex;
+  background-color: aqua;
+  overflow: auto;
+  word-wrap: break-word;
+  flex-direction: row;

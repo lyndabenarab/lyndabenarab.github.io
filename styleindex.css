@@ -1,31 +1,68 @@
-.carre{
-  width: 90%;
-  display: inline-block;
-  background-color: aqua;
+.contener{
+display: flex;
+/*flex-wrap: wrap;  /*remettre footer à la ligne ne fonctionne pas!*/
 }
-.carreimg{
+.corp{
+   /display: flex;
+   /* position: absolute; */
+   /* top : 300px; */
+   /* width: 1000px; */
+   /* left: 300px; */
+    flex-direction: column; 
+    margin: 10px;
+    border: 1px solid black;
+   /* align-items: strech;*/
+    flex: 1;
+   /* justify-content: space-around;*/
+}
+.zonetxt{
+  background-color: aqua;
+  padding: 30px;
+}
+.img{
   position: absolute;
-  height: 110px;
-  width: 110px;
+  height: 200px;
+  width: 200px;
   display: inline-block;
-  right: 0px;
-  top: 30px;
-  left: 80%;
-  padding: 20px;
-  
+  top: 230px;
+  left: 82%;
+  padding: 20px; 
 }
 .code{
   display: relative;
   width: 50%;
   background-color: black;
   color: white;
+  overflow: auto;
 }
 .titrelevel1{
-  color: purple;
+  color: black;
+  background-color: red;
+  margin: auto;
 }
 .titrelevel2{
   color: blue;
+  text-decoration : underline;
 }
 .titrelevel3{
   color: purple;
+}
+.header{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+ background-color: purple;
+ align-self: flex-end;
+}
+.nav{
+    /* display: flex; */
+    background: lightgreen;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+   /* width: 350px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+}
+.codexemple{
+  display: flex;
+  justify-content: space-betwen;
 }

@@ -1,0 +1,32 @@
+.carre{
+  position: relative;
+  height: 110px;
+  width: 110px;
+  display: inline-block;
+  border-radius: 75px/12px;
+  padding: 20px;
+  
+}
+.rouge{
+  background-color: rgb(255,0,0);
+  top: 30px;
+  left: 30px;
+  }
+.vert{
+  background-color: rgb(0,255,0);
+  top: 60px;
+  left: -90px;
+  
+  }
+.bleu{
+  background-color: rgb(0,0,255);
+  top: 90px;
+  left: -210px;
+  }
+.rouge:hover{
+  background-color: #00FF00;
+  }
+  
+ p::before {
+   content: "**";
+ }
