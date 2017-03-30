@@ -1,14 +1,15 @@
 .contener{
 display: flex;
+flex-direction: column; 
 /*flex-wrap: wrap;  /*remettre footer à la ligne ne fonctionne pas!*/
 }
 .corp{
-   /display: flex;
+   display: flex;
    /* position: absolute; */
    /* top : 300px; */
    /* width: 1000px; */
    /* left: 300px; */
-    flex-direction: column; 
+   /* flex-direction: column; */
     margin: 10px;
     border: 1px solid black;
    /* align-items: strech;*/
@@ -18,6 +19,7 @@ display: flex;
 .zonetxt{
   background-color: aqua;
   padding: 30px;
+  flex: 1;
 }
 .img{
   position: absolute;
@@ -47,13 +49,15 @@ display: flex;
 .titrelevel3{
   color: purple;
 }
+/*deux façon differente de centré du texte celon qu'on soit dans une flex box  ici header ou dans un element de la flex box (qui n'en est pas une flex box comme dans footer*/
 .header{
   display: flex;
   justify-content: center;
 }
 .footer{
  background-color: purple;
- align-self: flex-end;
+ text-align: center;
+ /*align-self: flex-end;*/
 }
 .nav{
     /* display: flex; */
