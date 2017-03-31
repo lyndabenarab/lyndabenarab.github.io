@@ -11,9 +11,10 @@ flex-direction: column;
    /* left: 300px; */
    /* flex-direction: column; */
     margin: 10px;
-    border: 1px solid black;
+    /*border: 1px solid black;
    /* align-items: strech;*/
     flex: 1;
+    justify-content: space-around;
    /* justify-content: space-around;*/
 }
 .zonetxt{
@@ -32,10 +33,10 @@ flex-direction: column;
 }
 .code{
   display: relative;
-  width: 50%;
   background-color: black;
   color: white;
   overflow: auto;
+  max-width: 500px;
 }
 .titrelevel1{
   color: black;
@@ -63,10 +64,18 @@ flex-direction: column;
     /* display: flex; */
     background: lightgreen;
     /* flex-direction: column; */
-    /* justify-content: center; */
+    /* justify-content: center;
    /* width: 350px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+   height: 800px;
 }
 .codexemple{
   display: flex;
-  justify-content: space-betwen;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 1px solid black
+  background-color: white;
+}
+.item {
+  align-self: center; /* | flex-end | center | baseline | stretch;*/
+  width: 400px;
 }

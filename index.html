@@ -28,12 +28,17 @@
             <li><a href="#headandfoot">Entête et pied de tableau</a></li>
             <li><a href="#fusion">Fusion de cellules</a></li>
             <li><a href="index2.html#IntroductionCSS">Introduction à CSS</a></li>
+            <li><a href="#Formulaire">Les formulaires</a></li>
+            <li><a href="#formulaire_contact">Les formulaires de contact</a></li>
+            <li><a href="#checklist_radio">Liste à cocher et liste à puce</a></li>
+            <li><a href="#post">Liste déroulante</a></li>
+            <li><a href="#validation">Gestion des informations et validation</a></li>
             <li><a href="#Annexe">Annexe</a></li>
           </ul>
         </nav>
         <div class="zonetxt">
           <section  id="Introduction">
-            <h1 class="titrelevel1"> Breauté cachée de HTML5 </h1>
+            <h1 class="titrelevel1"> Beauté cachée de HTML5 </h1>
             <h2 class="titrelevel2">Introduction</h2>
             <img src="shrek.jpg" alt="beauté cache" class="img" />
             <p>   HTML veut dire Hyper Text Markup Language est un logiciel de création de pages web.</p>
@@ -91,11 +96,11 @@
             </article>
             <article id="actionstexte">
               <h3 class="titrelevel3">actions sur le texte contenu dans une page web</h3>
-              <h2 class="titrelevel2">mise en valeur du texte</h2>
+              <h4 class="titrelevel4">mise en valeur du texte</h4>
               <p><strong>mise en valeur forte</strong> avec &lt;strong&gt; ...&lt;/strong&gt;<p>
               <p><em>mise en valeur normale </em> avec &lt;em&gt;....&lt;/em&gt;</p>
               <p><mark>mise en valeur visuelle</mark> avec &lt;mark&gt; ...&lt;/mark&gt;</p>
-              <h2 class="titrelevel2">affichage en bloc et affichage inligne</h2>
+              <h4 class="titrelevel4">affichage en bloc et affichage inligne</h4>
               <dl>
                 <dt>Elément de type bloc</dt> 
                 <dd>sont les balises qui même si on ecrit sur plusieurs lignes affichera un résultat sur une seul ligne </dd>
@@ -108,29 +113,29 @@
             <h2 class="titrelevel2">les liens hypertextes</h2>
               <p>ici du texte prochainement ...!</p>
             <article  id="lienpage">
-              <h2 class="titrelevel2">Les liens hypertextes vers une page web</h2>
+              <h3 class="titrelevel3">Les liens hypertextes vers une page web</h3>
               <p>ici du texte prochainement ...!</p>
             </article>
             <article  id="target">
-              <h2 class="titrelevel2">Les liens hypertextes vers une parti de la page</h2>
+              <h3 class="titrelevel3">Les liens hypertextes vers une parti de la page</h3>
               <p>ici du texte prochainement ...!</p>
             </article>
           </section>
           <section  id="tableaux">
             <h2 class="titrelevel2">Les tableau</h2>
             <article  id="declaration">
-              <h2 class="titrelevel2">Déclaration d'un tableau</h2>
+              <h3 class="titrelevel3">Déclaration d'un tableau</h3>
               <pre class="code">
-                &lt;table&gt;
-                  &lt;tr&gt;
-                    &lt;td&gt;valeur&lt;/td&gt;
-                    &lt;td&gt;valeur&lt;/td&gt;
-                  &lt;/tr&gt;
-                  &lt;tr&gt;
-                    &lt;td&gt;valeur&lt;/td&gt;
-                    &lt;td&gt;valeur&lt;/td&gt;
-                  &lt;/tr&gt;
-                &lt;/table&gt;
+  &lt;table&gt;
+    &lt;tr&gt;
+      &lt;td&gt;valeur&lt;/td&gt;
+      &lt;td&gt;valeur&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;valeur&lt;/td&gt;
+      &lt;td&gt;valeur&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/table&gt;
               </pre>
               <mark>Exemple</mark>
               <table>
@@ -145,20 +150,20 @@
               </table>
             </article>
             <article  id="headandfoot">
-              <h2 class="titrelevel2">Entête et pied de tableau</h2>
+              <h3 class="titrelevel3">Entête et pied de tableau</h3>
               <pre class="code">
-                &lt;caption&gt;legende&lt;/caption&gt;
-                &lt;thead&gt;
-                  &lt;th&gt;... &lt;/th&gt;
-                  &lt;th&gt;....&lt;/th&gt;
-                &lt;/thead&gt;
-                &lt;tfoot&gt;
-                  &lt;th&gt; ... &lt;/th&gt;
-                &lt;/tfoot&gt;
+  &lt;caption&gt;legende&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;th&gt;... &lt;/th&gt;
+    &lt;th&gt;....&lt;/th&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;th&gt; ... &lt;/th&gt;
+  &lt;/tfoot&gt;
               </pre>
             </article>
             <article id="fusion">
-              <h2 class="titrelevel2">Fusion de cellules</h2>
+              <h3 class="titrelevel2">Fusion de cellules</h3>
               <p> la synthaxe est la suivante:</p>
                 <pre class="code">
                   &lt;tr&gt;
@@ -175,6 +180,218 @@
                 </table>
             </article>
           </section>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
+          <section id="Formulaire">
+            <h2 class="titrelevel2">Les Formulaire</h2>
+              <p>la synthaxe minimale d'un formaulaire est la suivante</p>
+              <pre class="code">
+               &lt;form action=" " method="post"&gt;
+                 mes actions....
+               &lt;/form&gt;
+              </pre>
+            <article id="formulaire_contact">
+              <h3 class="titrelevel3">Les formulaires de contact</h3>
+              <p>pour creer une page de contact on a besoin de la synthaxe suivante: </p>
+              <div class="codexemple">
+                <div>
+                  <h4 >synthaxe</h4>
+                  <pre class="code">
+  &lt;form action=" " method="post"&gt;
+    &lt;label for="id_input">ma case à remplir&lt;/label&gt;
+    &lt;input type="mon_type" name="mon_nom" id="id_input" /&gt; 
+  &lt;/form&gt;
+                  </pre>
+                </div>
+                <div>
+                  <h4 >Exemple</h4>
+                  <pre class="code">
+  &lt;form action=" " method="post" &gt;
+    &lt;label for="date"&gt;Date&lt;/label&gt;
+    &lt;input type="date" name="date" id="date"/ &gt; 
+    &lt;label for="name"&gt;Nom&lt;/label&gt;
+    &lt;input type="text" name="user_name" id="name" required /&gt;
+    &lt;label for="mail"&gt;Email&lt;/label&gt;
+    &lt;input type="mail" name="email_user" id="mail" /&gt;
+    &lt;label for="mail"&gt;Exprimez-vous!&lt;/label&gt;
+    &lt;textarea name="ameliorer" id="ameliorer"&gt;message&lt;/textarea&gt;
+    &lt;button type="submit"&gt;Envoyer!&lt;/button&gt;
+  &lt;/form&gt;
+                  </pre>
+                </div>
+              </div>
+              <div class="item">
+                  <form action=" " method="post">
+                  <div class="contener">
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date" /> 
+                    <label for="name">Nom</label>
+                    <input type="text" name="user_name" id="name" required />
+                    <label for="mail">Email</label>
+                    <input type="mail" name="email_user" id="mail" />
+                    <label for="mail">Exprimez-vous!</label>
+                    <textarea name="ameliorer" id="ameliorer">message</textarea>
+                    <button type="submit">Envoyer!</button>
+                  </div>
+                  </form>
+              </div>
+              <p>pour les type il en existe plusieurs je vous renvois donc vers le lien de la liste exhaustive ici.</p>
+              <p>Dans notre exemple on retrouve les types: date name text mail </p>
+            </article>
+            <article id="checklist_radio">
+              <h3 class="titrelevel3">Liste à cocher et liste à puce</h3>
+              <div class="codexemple">
+                <h4 >synthaxe</h4>
+                <h4 >Exemple</h4>
+              </div>
+              <div class="codexemple">
+                <pre class="code">
+  &lt;form action=" " method="post"&gt;
+    &lt;label for="id_input">ma case à remplir&lt;/label&gt;
+      &lt;!-- declaration d'une checkbox --&gt;
+    &lt;input type="checkbox" value="valeur_case" name="mon_nom" id="id_input"/&gt; 
+      &lt;!-- declaration d'une liste à puce --&gt;
+    &lt;label for="id_input">ma case à remplir&lt;/label&gt;
+    &lt;fieldset&gt;
+      &lt;input type="radio" value="valeur_case1" name="mon_nom" id="id_input"/&gt;
+                ...
+      &lt;input type="radio" value="valeur_case_n" name="mon_nom" id="id_input"/&gt; 
+    &lt;/fieldset&gt;
+  &lt;/form&gt;
+                </pre>
+                  <!--creation de formulaire checklist et liste à puce -->
+                <form action=" " method="post">
+                  <div><input type="checkbox" name="java" id="java" /> <label for="java">Java</label></div>
+                  <div><input type="checkbox" name="C++" id="C++" /> <label for="C++">C++</label></div>
+                  <div><input type="checkbox" name="html5" id="html5" /> <label for="html5">html5</label></div>
+                  <fieldset>
+                  <legend> un groupe de puce </legend>
+                    <div><input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label></div>
+                    <div><input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label></div>
+                    <div><input type="radio" name="age" value="+25" id="+25" /> <label for="medium15-25">plus de 25 ans</label></div>
+                  </fieldset>
+                </form>
+              </div>
+            </article>
+            <article id="post">
+              <h3 class="titrelevel3">Liste déroulante</h3>
+              <p>les differents options sur  les listes déroulantes sont </p>
+              <ul>
+                <li>liste déroulante simple</li>
+                <div class="codexemple">
+                  <div>
+                    <h4>syntaxe</h4>
+                    <pre class="code">
+  &lt;form action=" " method="post"&gt;
+    &lt;select name="mon_nom" id="id_nom"&gt;
+      &lt;option value="valeur_1"&gt;valeur 1&lt;/option&gt;
+          ...
+      &lt;option value="valeur_n"&gt;valeur n&lt;/option&gt;
+    &lt;/select>
+  &lt;/form&gt;
+                    </pre>
+                  </div>
+                  <div>                  
+                    <h4 >Exemple</h4>
+                    <form action=" " method="post">
+                      <select name="pays" id="pays">
+                        <option value="france">France</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="italie">Italie</option>
+                        <option value="royaume-uni">Royaume-Uni</option>
+                        <option value="canada">Canada</option>
+                        <option value="etats-unis">Etats-Unis</option>
+                        <option value="chine">Chine</option>
+                        <option value="japon">Japon</option>
+                      </select>
+                    </form>
+                  </div>
+                 </div>
+                <li>liste déroulante mutliple</li>
+                <p>une liste déroulante multiple permet de faire un choix mutiple en selectionant plusieurs options</p>
+                <div class="codexemple">
+                  <div>
+                    <h4 >synthaxe</h4>
+                    <pre class="code">
+  &lt;form action=" " method="post"&gt;
+    &lt;select name="mon_nom" mutltiple id="id_nom"&gt;
+      &lt;option value="valeur_1"&gt;valeur 1&lt;/option&gt;
+          ...
+      &lt;option value="valeur_n"&gt;valeur n&lt;/option&gt;
+
+    &lt;/select>
+  &lt;/form&gt;
+                    </pre>
+                  </div>
+                  <div>
+                    <h4 >Exemple</h4>
+                    <form action=" " method="post">
+                      <select name="pays" multiple id="pays">
+                        <option value="france">France</option>
+                        <option value="espagne">Espagne</option>
+                        <option value="italie">Italie</option>
+                        <option value="royaume-uni">Royaume-Uni</option>
+                        <option value="canada">Canada</option>
+                        <option value="etats-unis">Etats-Unis</option>
+                        <option value="chine">Chine</option>
+                        <option value="japon">Japon</option>
+                      </select>
+                    </form>
+                  </div>
+                </div>
+                <li>liste déroulante en groupe</li>
+                <div class="codexemple">
+                  <div>
+                    <h4 >synthaxe</h4>
+                    <pre class="code">
+  &lt;form action=" " method="post"&gt;
+    &lt;select name="mon_nom" id="id_nom"&gt;
+      &lt;optgroup label="groupe_1"&gt;
+        &lt;option value="valeur_1"&gt;valeur 1&lt;/option&gt;
+          ...
+        &lt;option value="valeur_n"&gt;valeur n&lt;/option&gt;
+      &lt;/optgroup&gt;
+      &lt;optgroup&gt;
+      &lt;select name="mon_nom" id="id_nom"&gt;
+        &lt;optgroup label="groupe_n"&gt;
+        &lt;option value="valeur_1"&gt;valeur 1&lt;/option&gt;
+          ...
+        &lt;option value="valeur_n"&gt;valeur n&lt;/option&gt;
+      &lt;/optgroup&gt;
+    &lt;/select>
+  &lt;/form&gt;
+                  </pre> 
+                 </div>
+                 <div>
+                   <h4 >Exemple</h4>
+                    <form action=" " method="post">
+                      <select name="pays" id="pays">
+                        <optgroup label="Europe">
+                          <option value="france">France</option>
+                          <option value="espagne">Espagne</option>
+                          <option value="italie">Italie</option>
+                          <option value="royaume-uni">Royaume-Uni</option>
+                        </optgroup>
+                          <optgroup label="Amérique">
+                          <option value="canada">Canada</option>
+                          <option value="etats-unis">Etats-Unis</option>
+                        </optgroup>
+                        <optgroup label="Asie">
+                          <option value="chine">Chine</option>
+                          <option value="japon">Japon</option>
+                        </optgroup>
+                      </select>
+                    <form> 
+                </div>
+            </article>
+            <article id="validation">
+              <h3 class="titrelevel3">Gestion des informations et validation</h3>
+            </article>
+          </section>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------->
           <section id="Annexe">
             <h2 class="titrelevel2">Commandes principales pour html</h2>
             <a href="tableauCommandes.html">Annexe</a></li>

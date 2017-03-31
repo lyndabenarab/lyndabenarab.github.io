@@ -7,7 +7,66 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-     <div class="carre rouge"><p> coucou!</p></div>
+    <!-- <div class="carre rouge"><p> coucou!</p></div> -->
     
+    <!--creation de formulaire checklist et liste à puce -->
+     <form action=" " method="post">
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date" /> 
+      <label for="name">Nom</label>
+      <input type="text" name="user_name" id="name" required />
+       <label for="mail">Email</label>
+       <input type="mail" name="email_user" id="mail" />
+       <textarea name="ameliorer" id="ameliorer"></textarea>
+       <button type="submit">Envoyer!</button>
+       <div><input type="checkbox" name="java" id="java" /> <label for="java">Java</label></div>
+       <div><input type="checkbox" name="C++" id="C++" /> <label for="C++">C++</label></div>
+       <div><input type="checkbox" name="html5" id="html5" /> <label for="html5">html5</label></div>
+       <fieldset>
+        <legend> un groupe de puce </legend>
+        <div><input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 15 ans</label></div>
+        <div><input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">15-25 ans</label></div>
+        <div><input type="radio" name="age" value="+25" id="+25" /> <label for="medium15-25">plus de 25 ans</label></div>
+       </fieldset>
+       <select name="pays" id="pays">
+           <option value="france">France</option>
+           <option value="espagne">Espagne</option>
+           <option value="italie">Italie</option>
+           <option value="royaume-uni">Royaume-Uni</option>
+           <option value="canada">Canada</option>
+           <option value="etats-unis">Etats-Unis</option>
+           <option value="chine">Chine</option>
+           <option value="japon">Japon</option>
+       </select>
+       <select name="pays" multiple id="pays">
+           <option value="france">France</option>
+           <option value="espagne">Espagne</option>
+           <option value="italie">Italie</option>
+           <option value="royaume-uni">Royaume-Uni</option>
+           <option value="canada">Canada</option>
+           <option value="etats-unis">Etats-Unis</option>
+           <option value="chine">Chine</option>
+           <option value="japon">Japon</option>
+       </select>
+       <select name="pays" id="pays">
+           <optgroup label="Europe">
+               <option value="france">France</option>
+               <option value="espagne">Espagne</option>
+               <option value="italie">Italie</option>
+               <option value="royaume-uni">Royaume-Uni</option>
+           </optgroup>
+           <optgroup label="Amérique">
+               <option value="canada">Canada</option>
+               <option value="etats-unis">Etats-Unis</option>
+           </optgroup>
+           <optgroup label="Asie">
+               <option value="chine">Chine</option>
+               <option value="japon">Japon</option>
+           </optgroup>
+       </select>
+     <form>   
+     <p>Cette boîte utilisera des transitions pour width, height, background-color, transform. 
+   Survolez cette boîte pour voir l'effet.</p>
+     <div class="box"></div>
   </body>
 </html>
