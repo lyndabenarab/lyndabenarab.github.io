@@ -28,22 +28,63 @@
             <li><a href="index.html#headandfoot">Entête et pied de tableau</a></li>
             <li><a href="index.html#fusion">Fusion de cellules</a></li>
             <li><a href="#IntroductionCSS">Introduction à CSS</a></li>
+            <ol>
+              <li><a href="#IntroductionCSS">Introduction-Définition</a></li>
+              <li><a href="#premierspasCSS">Premiers pas avec CSS</a></li>
+              <li><a href="#boite">Notion de boite</a></li>
+              <li><a href="#flexbox">La flexbox</a></li>
+              <li><a href="#pseudo"></a>Les pseudo classe et pseudo élements</li>
+            </ol>
+            <li><a href="index.html#Formulaire">Les formulaires</a></li>
+            <li><a href="index.html#formulaire_contact">Les formulaires de contact</a></li>
+            <li><a href="index.html#checklist_radio">Liste à cocher et liste à puce</a></li>
+            <li><a href="index.html#post">Liste déroulante</a></li>
+            <li><a href="index.html#validation">Gestion des informations et validation</a></li>
             <li><a href="index.html#Annexe">Annexe</a></li>
           </ul>
         </nav>
         <div class="zonetxt">
           <section  id="IntroductionCSS">
             <h1 class="titrelevel1"> Mise en forme avec CSS </h1>
+            <p> CSS est le compagnon fidèle de HTML5, ils sont complémentaire, l'un structure
+            les données et l'autre nous permet d'admirer le magnifique(ou médiocre!) travail qu'on à produit.</p>
+            <p>Pour vous donner une idée voilà mon premier site sans CSS et avec CSS.</p>
+            <strong>ATTENTION!!</strong><p>tout les navigateurs ne réagissent pas de la même manière à CSS</p>
+            <p> voici donc un site qui va vous aidé à connaitre si un navigateur accepte ou pas une action<a href="http://caniuse.com/"> can I use</a></p>
+            <div class="imgcorp" >
+              <div>
+                <h4 >page sans CSS</h4>
+                <img src="html.png" alt="mon site sans CSS" class="imghtmlcss"/>
+              </div>
+              <div>
+                <h4 >page avec CSS</h4>
+                <img src="htmlcss.png" alt="mon site Avec CSS" class="imghtmlcss"/>
+              </div>
+            </div>
+            <p>Je sais ce n'est pas génial mais parceque je fais mes débuts dans le domaine!</p> 
+          </section>
+          <section>
+            <h1 class="titrelevel1" id="premierspasCSS">Premiers pas avec CSS </h1>
+             <p>Pour appliquer les règles CSS à notre document html on doit:</p>
+            <ol>
+              <li>Les instruction CSS ce declare dans un fichier avec l'extention .css </li>
+              <li>dans le head du document .htm on rajoute: &lt;link rel="stylesheet" type="text/css" href="monstyle.css"&gt;</li>
+            </ol>
+            <p>par la suite on peut appliquer des règles CSS à n'importe quelle balise html de deux manière</p>
             <ul>
-             <li>les differentes façon de mise en forme </li>
-             <li>les classes</li>
-             <li>la flexbox</li>
-             <li>les pseudo classe et pseudo elements</li>
+               <li> <strong>#mabalise{ mes actions }</strong></li>
+               <li> en déclarant une classe qu'on affecte à une blaise et dans le fichier CSS on déclare <strong>.maclasse{ mes actions }</strong>
             </ul>
-            <p> il existe min-width max-width min-height max-height qui m'ont servi à cotroler 
-            la taille de mes boites de code que j'affiche sant avoir la cotrainte de mettre une taille fixe qui penalise
-            au mement d'afficher le code dans un element de la flex box
-            <p> ATTENDEZ CE N'EST PAS FINI!</p>
+            <p>Le mieux est de préviligier l'usage des classes ce qui nous donne plus de liberté dans la mise en forme spécialement à utilisé les boites. Ce qu'on verra dans le prochain chapitre
+          </section>
+          <section>
+            <h1 class="titrelevel1" id="boite">La notion de boite</h1>
+          </section>
+          <section>
+            <h1 class="titrelevel1" id="flexbox">La flexbox</h1>
+          </section>
+          <section>
+            <h1 class="titrelevel1" id="pseudo">les pseudo classe et pseudo elements</h1>
           </section> 
         </div>
       </div>

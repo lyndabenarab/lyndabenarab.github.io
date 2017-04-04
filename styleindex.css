@@ -17,10 +17,21 @@ flex-direction: column;
     justify-content: space-around;
    /* justify-content: space-around;*/
 }
+.imghtmlcss{
+  width: 400px;
+  height: 400px;
+}
+.imgcorp{
+  display: flex;
+  justify-content: space-around;
+}
 .zonetxt{
+  display: flex;
+  flex-direction: column;
   background-color: aqua;
   padding: 30px;
   flex: 1;
+  justify-content: space-between;
 }
 .img{
   position: absolute;
@@ -30,7 +41,12 @@ flex-direction: column;
   top: 230px;
   left: 82%;
   padding: 20px; 
+  max-width: 500px;
 }
+/*il existe min-width max-width min-height max-height qui m'ont servi à contrôler 
+            la taille de mes boites de code que j'affiche sans avoir la cotrainte de mettre une taille fixe qui penalise
+            au momment d'afficher le code dans un élement de la flexbox
+            <p> ATTENDEZ CE N'EST PAS FINI!*/
 .code{
   display: relative;
   background-color: black;
@@ -68,6 +84,7 @@ flex-direction: column;
    /* width: 350px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
    height: 800px;
 }
+
 .codexemple{
   display: flex;
   justify-content: space-around;
